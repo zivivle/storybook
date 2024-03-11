@@ -25,7 +25,7 @@ export const CGButton = ({ iconPath, iconAlt, text, onClick }: ICGButton) => {
             `}
         >
             <img src={iconPath} alt={iconAlt} />
-            <p>{text}</p>
+            <p>{text}입니다</p>
         </button>
     );
 };
