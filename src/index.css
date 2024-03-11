@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Open Sans Variable", sans-serif;
+}
+
+@layer components {
+    .relative > p {
+        @apply absolute;
+    }
+
+    .navigation-title-wrapper > button {
+        @apply mr-2;
+    }
+}
