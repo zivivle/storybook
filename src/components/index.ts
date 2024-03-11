@@ -6,3 +6,4 @@ export * from "./NavigationBar";
 export * from "./PrimaryButton";
 export * from "./TagButton";
 export * from "./TagButtonList";
+export * from "./CGButton";
